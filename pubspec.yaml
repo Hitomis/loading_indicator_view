@@ -1,8 +1,8 @@
 name: loading_indicator_view
 description: Flutter loading indicator widget
-version: 0.0.1
-author:
-homepage:
+version: 1.0.0
+author: Vans Z <196425254@qq.com>
+homepage: https://github.com/Hitomis/loading_indicator_view
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
