@@ -10,17 +10,18 @@ Flutter 版本的 loading indicator view
 
 ## Animation types
 
-| :--: | :--: | :--: | :--: |
-|1. LineSpinFadeLoaderIndicator | 2. BallBeatIndicator | 3. BallClipRotateMultipleIndicator | 4. BallGridPulseIndicator|
-|5. LineScaleIndicator | 6. BallPulseRiseIndicator | 7. BallScaleRippleMultipleIndicator | 8. BallZigZagIndicator|
-|9. BallScaleIndicator | 10. BallPulseSyncIndicator | 11. BallScaleMultipleIndicator | 12. BallPulseIndicator|
-|13. BallClipRotatePulseIndicator | 14. BallGridBeatIndicator | 15. SquareSpinIndicator | 16. BallSpinFadeLoaderIndicator|
-|17. BallScaleRippleIndicator | 18. SemiCircleSpinIndicator | 19. LineScalePulseOutIndicator | 20. BallClipRotateIndicator|
-|21. PacmanIndicator | 22. BallRotateIndicator | 23. CubeTransitionIndicator | 24. TriangleSkewSpinIndicator|
+| Type | Type | Type | Type |
+|---|---|---|---|
+|1. LineSpinFadeLoader | 2. BallBeat | 3. BallClipRotateMultiple | 4. BallGridPulse |
+|5. LineScale | 6. BallPulseRise | 7. BallScaleRippleMultiple | 8. BallZigZag |
+|9. BallScale | 10. BallPulseSync| 11. BallScaleMultiple | 12. BallPulse |
+|13. BallClipRotatePulse | 14. BallGridBeat | 15. SquareSpin | 16. BallSpinFadeLoader |
+|17. BallScaleRipple | 18. SemiCircleSpin | 19. LineScalePulseOut | 20. BallClipRotate |
+|21. Pacman | 22. BallRotate | 23. CubeTransition | 24. TriangleSkewSpin|
 
 
 # Licence
-    Copyright 2017 Hitomis, Inc.
+    Copyright 2019 Hitomis, Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
