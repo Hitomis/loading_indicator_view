@@ -1,6 +1,6 @@
 # loading_indicator_view
 
-Flutter 版本的 loading indicator view
+A collection of awesome flutter loading animation
 
 
 ## Demo
