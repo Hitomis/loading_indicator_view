@@ -7,6 +7,12 @@ A collection of awesome flutter loading animation
 
 <img src="flutter_indicator_view.gif" />
 
+## Usage
+
+```
+loading_indicator_view:git: git://github.com/Hitomis/loading_indicator_view.git
+```
+
 
 ## Animation types
 
