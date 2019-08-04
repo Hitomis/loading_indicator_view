@@ -10,8 +10,7 @@ A collection of awesome flutter loading animation
 ## Usage
 
 ```
-loading_indicator_view:
-  git: git://github.com/Hitomis/loading_indicator_view.git
+loading_indicator_view: ^1.0.0
 ```
 
 
