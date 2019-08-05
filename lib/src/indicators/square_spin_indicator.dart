@@ -71,9 +71,6 @@ class _SquareSpinIndicatorState extends State<SquareSpinIndicator>
   Size _measureSize() => Size(widget.length, widget.length);
 }
 
-double _progress = .0;
-double _lastExtent = .0;
-
 class _SquareSpinIndicatorPainter extends CustomPainter {
   _SquareSpinIndicatorPainter({
     this.rotateX,

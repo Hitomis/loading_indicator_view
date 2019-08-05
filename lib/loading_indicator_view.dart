@@ -23,6 +23,3 @@ export 'src/indicators/pacman_indicator.dart';
 export 'src/indicators/semi_circle_spin_indicator.dart';
 export 'src/indicators/square_spin_indicator.dart';
 export 'src/indicators/triangle_skew_spin_indicator.dart';
-
-
-

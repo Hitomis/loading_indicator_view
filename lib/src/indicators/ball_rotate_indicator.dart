@@ -35,9 +35,7 @@ class _BallRotateIndicatorState extends State<BallRotateIndicator>
   @override
   void initState() {
     _controller = AnimationController(duration: widget.duration, vsync: this);
-    _radius =
-        Tween<double>(begin: widget.minBallRadius, end: widget.maxBallRadius)
-            .animate(
+    _radius = Tween<double>(begin: widget.minBallRadius, end: widget.maxBallRadius).animate(
       CurvedAnimation(parent: _controller, curve: Curves.fastOutSlowIn),
     );
     _rotate = Tween<double>(begin: 0, end: 180).animate(
@@ -70,16 +68,16 @@ class _BallRotateIndicatorState extends State<BallRotateIndicator>
   Widget build(BuildContext context) => AnimatedBuilder(
         animation: _controller,
         builder: (context, child) => CustomPaint(
-              size: measureSize(),
-              painter: _BallRotateIndicatorPainter(
-                angle: _rotate.value,
-                radius: _radius.value,
-                maxBallRadius: widget.maxBallRadius,
-                minBallRadius: widget.minBallRadius,
-                spacing: widget.spacing,
-                color: widget.color,
-              ),
-            ),
+          size: measureSize(),
+          painter: _BallRotateIndicatorPainter(
+            angle: _rotate.value,
+            radius: _radius.value,
+            maxBallRadius: widget.maxBallRadius,
+            minBallRadius: widget.minBallRadius,
+            spacing: widget.spacing,
+            color: widget.color,
+          ),
+        ),
       );
 }
 

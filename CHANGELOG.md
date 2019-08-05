@@ -1,3 +1,7 @@
+## 1.1.0
+
+* 优化项目，去除无用代码，添加使用文档
+
 ## 1.0.0
 
-* TODO: Describe initial release.
+* 完成 24 个 loading widget
