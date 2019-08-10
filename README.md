@@ -10,7 +10,7 @@ A collection of awesome flutter loading animation
 ## Usage
 
 ```
-loading_indicator_view: ^1.0.0
+loading_indicator_view: ^1.1.0
 ```
 
 
